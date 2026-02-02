@@ -25,7 +25,7 @@ pipeline {
         stage('Prepare Package Directory') {
             steps {
                 sh '''
-                    mkdir -p package/usr/local/binS
+                    mkdir -p package/usr/local/bin
                     cp hello.jar package/usr/local/bin/
                 '''
             }
